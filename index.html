@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h1>About Me</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
+          sapien et neque condimentum lobortis. Suspendisse potenti. Sed
+          convallis velit euismod, tincidunt enim sed, bibendum arcu. In hac
+          habitasse platea dictumst. Morbi in tempor turpis. Duis vehicula
+          tincidunt arcu, at finibus diam vestibulum quis. Donec at elit
+          commodo, suscipit leo in, lacinia urna. Sed eget velit vel sapien
+          facilisis laoreet. Sed id nunc eu quam commodo hendrerit. Mauris
+          semper, nibh sed scelerisque congue, felis purus dignissim odio, eget
+          luctus neque urna at est. Praesent eget auctor nisl, non interdum
+          dolor. Fusce nec faucibus sem, at placerat nulla. Nulla facilisi.
+        </p>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+          <div class="project">
+            <img src="project-1.jpg" alt="Project 1" />
+            <h3>Project 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              nec sapien et neque condimentum lobortis.
+            </p>
+          </div>
+          <div class="project">
+            <img src="project-2.jpg" alt="Project 2" />
+            <h3>Project 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              nec sapien et neque condimentum lobortis.
+            </p>
+          </div>
+          <div class="project">
+            <img src="project-3.jpg" alt="Project 3" />
+            <h3>Project 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              nec sapien et neque condimentum lobortis.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 My Portfolio</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
